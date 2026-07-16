@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KiEva Bau</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#1d3557;
+color:white;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:32px;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:80vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#ffb703;
+padding:15px 35px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+}
+
+section{
+padding:70px 10%;
+}
+
+h3{
+font-size:36px;
+margin-bottom:25px;
+text-align:center;
+color:#1d3557;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card h4{
+margin-bottom:15px;
+color:#1d3557;
+}
+
+.about{
+text-align:center;
+font-size:18px;
+line-height:1.8;
+}
+
+.contact{
+background:#1d3557;
+color:white;
+text-align:center;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>KiEva Bau</h1>
+
+<nav>
+<a href="#about">Про нас</a>
+<a href="#services">Послуги</a>
+<a href="#contact">Контакти</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h2>Будуємо майбутнє разом</h2>
+
+<p>Будівництво • Ремонт • Реконструкція • Європейська якість</p>
+
+<a class="btn" href="#contact">Замовити консультацію</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h3>Про компанію</h3>
+
+<p class="about">
+
+KiEva Bau — сучасна будівельна компанія, що виконує житлове та комерційне будівництво, ремонти, реконструкцію та оздоблювальні роботи. Ми працюємо відповідально, дотримуємося термінів і забезпечуємо високу якість виконання.
+
+</p>
+
+</section>
+
+<section id="services">
+
+<h3>Наші послуги</h3>
+
+<div class="cards">
+
+<div class="card">
+<h4>Будівництво будинків</h4>
+<p>Будинки під ключ будь-якої складності.</p>
+</div>
+
+<div class="card">
+<h4>Ремонт квартир</h4>
+<p>Повний комплекс внутрішніх ремонтних робіт.</p>
+</div>
+
+<div class="card">
+<h4>Фасадні роботи</h4>
+<p>Утеплення, оздоблення та реконструкція фасадів.</p>
+</div>
+
+<div class="card">
+<h4>Комерційні об'єкти</h4>
+<p>Будівництво офісів, складів та виробничих приміщень.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>Чому обирають нас</h3>
+
+<div class="cards">
+
+<div class="card">
+<h4>✓ Досвід</h4>
+<p>Професійна команда спеціалістів.</p>
+</div>
+
+<div class="card">
+<h4>✓ Якість</h4>
+<p>Сучасні матеріали та технології.</p>
+</div>
+
+<div class="card">
+<h4>✓ Терміни</h4>
+<p>Завжди виконуємо роботи вчасно.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h3 style="color:white;">Контакти</h3>
+
+<p>📍 Німеччина / Литва</p>
+
+<p>📞 +49 XXX XXX XXXX</p>
+
+<p>✉ info@kievabau.de</p>
+
+<p>Працюємо по всій Європі.</p>
+
+</section>
+
+<footer>
+
+© 2026 KiEva Bau. Всі права захищені.
+
+</footer>
+
+</body>
+</html>
